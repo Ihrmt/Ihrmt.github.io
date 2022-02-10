@@ -1,0 +1,7 @@
+/* Components */
+@import url(./components/banner.css);
+@import url(./components/section.css);
+@import url(./components/footer.css);
+
+/* Fonts */
+@import url(./fonts/font.css);

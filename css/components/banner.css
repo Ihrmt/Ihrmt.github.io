@@ -1,0 +1,26 @@
+.banner-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../images/van.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: white;
+}
+
+.banner-img h1 {
+  font-family: Vogue;
+  font-size: 60px;
+}
+
+@media (max-width: 768px) {
+  .banner-img h1 {
+    font-size: xxx-large;
+    margin: 10px;
+  }
+}
